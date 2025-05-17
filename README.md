@@ -16,10 +16,12 @@ This project simulates TCP-like reliability over UDP and builds a basic HTTP/1.0
 ## 📁 File Structure
 
 - 'reliableUDP.py       # Main class with reliable UDP functionality'
-- 'http_client.py        # Sends HTTP GET/POST requests'
-- 'http_server.py        # Handles incoming HTTP requests'
+- 'http_client.py       # Sends HTTP GET/POST requests'
+- 'http_server.py       # Handles incoming HTTP requests'
 - 'test.txt             # Sample file used for GET requests'
-- 'README.md             # This file'
+- 'algo 1.png           # State machine for the algorithm used in reliableUDP.py'
+- 'algo 2.png           # State machine for the algorithm used in reliableUDP.py'
+- 'README.md            # This file'
 
 
 ---
