@@ -32,8 +32,7 @@ This project simulates TCP-like reliability over UDP and builds a basic HTTP/1.0
 
 Each packet follows this structure:
 
-<FLAG>,<SEQ>,<DATA>,<CHECKSUM>
-
+FLAG,SEQ,DATA,CHECKSUM
 
 - `FLAG`: SYN, SYNACK, ACK, FIN, or DATA
 - `SEQ`: Sequence number (0 or 1 for Stop-and-Wait)
@@ -50,7 +49,7 @@ Each packet follows this structure:
 - Duplicate detection and ACK resending
 - TCP-style connection setup and teardown
 - HTTP/1.0 GET: Returns the content of a file
-- HTTP/1.0 POST: Saves the body to `post_output.txt`
+- HTTP/1.0 POST: Saves the body to `test.txt`
 
 ---
 
